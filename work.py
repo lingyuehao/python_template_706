@@ -8,7 +8,8 @@ def knots_to_kmh(knots: float) -> float:
     return round(knots * 1.852, 3)
 
 
-def estimate_flight_time_hours(distance_nm: float, speed_knots: float) -> float:
+def estimate_flight_time_hours(distance_nm: float,
+                               speed_knots: float) -> float:
     """
     Estimate cruise flight time in hours.
     distance_nm: distance in nautical miles
