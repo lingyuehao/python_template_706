@@ -42,7 +42,7 @@ print(add(2, 3))
 from work import knots_to_kmh, estimate_flight_time_hours
 
 # Convert 550 knots to km/h
-print(knots_to_kmh(450))
+print(knots_to_kmh(550))
 # Output: 1018.6
 
 # Estimate flight time for a 2500 nautical mile trip at 500 knots
